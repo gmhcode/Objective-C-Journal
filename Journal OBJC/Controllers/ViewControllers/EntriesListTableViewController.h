@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EntriesListTableViewController.h
 //  Journal OBJC
 //
 //  Created by Greg Hughes on 12/17/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface EntriesListTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
